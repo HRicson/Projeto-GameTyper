@@ -1,0 +1,29 @@
+.campo-digitacao{
+    font-size: 20px;
+    height: 130px;
+    border: 2px solid #000;
+}
+
+body{
+    margin-bottom: 10em;
+}
+.frase{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.campo-desativado{
+    background: rgba(211, 211, 211, 0.753);
+}
+
+.icones{
+    vertical-align: middle;
+}
+
+.borda-correto{
+    border: 2px solid green;
+}
+
+.borda-errado{
+    border: 2px solid red;
+}

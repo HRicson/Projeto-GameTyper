@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GAME TYPER</title>
+    <link rel="stylesheet" href="css/libs/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="center">GAME TYPER</h1>
+        <p class="frase center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, impedit! Quisquam, deserunt similique delectus cum, neque iste dignissimos consequatur libero eaque sapiente repellat, tenetur deleniti eligendi cumque quos natus rem?</p>
+
+        <ul class="informacoes center">
+            <li>
+                <i class="small material-icons icones">description</i>
+                <span id="tamanho-frase">0</span> Palavras
+            </li>
+            <li>
+                <i class="small material-icons icones">query_builder</i>
+                <span id="tempo-digitacao">10</span> Segundos
+            </li>
+        </ul>
+
+        <textarea class="campo-digitacao" cols="40" rows="8"></textarea>
+
+        <div class="botoes">
+            <a class="btn-floating btn-large waves-effect waves-light red" id="botao-reiniciar" title="Reiniciar Jogo">
+                <i class="material-icons">restore</i>
+            </a>
+        </div>
+
+        <ul class="center">
+            <li><span id="contador-caracteres">0</span> Caracteres</li>
+            <li><span id="contador-palavras">0</span> Palavras</li>
+        </ul>
+
+        <section class="placar">
+            <h3 class="center">Placar</h3>
+            <table class="centered">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Nº de Palavras</th>
+                        <th>Remover</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/placar.js"></script>
+</body>
+
+</html>
